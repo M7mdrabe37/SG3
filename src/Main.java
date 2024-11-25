@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Progression A = new Progression(-3,2);
+        Calculator A = new Calculator();
 
-        System.out.println(A.getElement(1));
+
     }
 }

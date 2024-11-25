@@ -35,7 +35,13 @@ public class Calculator {
     }
 
     public int getLastDigit(int num) {
-        return num % 10;
+        int lastDigit = 0;
+
+        while (num!=0){
+            lastDigit=num%10;
+            num=num/10;
+        }
+        return lastDigit;
     }
 
     public int getDigit(int num, int k) {
